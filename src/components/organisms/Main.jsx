@@ -8,14 +8,14 @@ import Complementos from '../molecules/Complementos'
 
 function main(){
     return(
-        <main class='main'>
+        <div className="main">
             <TituloNombre />
             <Foto />
             <Contacto />
             <Formacion/>
             <Complementos/>
             {/* agregar mas cosas */}
-        </main>
+        </div>
     );
 }
 

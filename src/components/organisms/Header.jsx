@@ -5,10 +5,10 @@ import Titulo from '../atoms/Titulo';
 
 function header(){
     return(
-        <header class='header'>
+        <div className="header">
              <Titulo />
             {/* agregar mas cosas */}
-        </header>
+        </div>
     );
 }
 

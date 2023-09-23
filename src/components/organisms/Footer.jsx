@@ -2,13 +2,13 @@ import React from "react";
 
 import Info from '../atoms/Info';
 
-function Footer(){
+function footer(){
     return(
-        <Footer class='footer'>
+        <div className="footer">
             <Info />
             {/* agregar mas cosas */}
-        </Footer>
+        </div>
     );
 }
 
-export default Footer;
+export default footer;

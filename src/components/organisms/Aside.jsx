@@ -6,12 +6,12 @@ import AreasInteres from '../molecules/AreasInteres';
 
 function aside(){
     return(
-        <aside class='aside'>
+        <div className="aside">
             <Introduccion />
             <Competencias />
             <AreasInteres/>
             {/* agregar mas cosas */}
-        </aside>  
+        </div>  
     );
 }
 

@@ -3,7 +3,7 @@ import React from "react";
 
 function foto(){
     return(
-        <div>
+        <div className="imagenPerfil">
             <img src='./perfil.jpg' alt="Imagen de perfil" title='Foton' />
             {/* agregar mas cosas */}
         </div>

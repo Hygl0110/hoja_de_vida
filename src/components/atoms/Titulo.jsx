@@ -1,4 +1,3 @@
-//../atoms/Titutlo
 import React from "react";
 
 function titulo(){

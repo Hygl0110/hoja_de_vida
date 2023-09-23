@@ -1,4 +1,3 @@
-// ../atoms/Descripcion
 import React from "react";
 
 function desc(){

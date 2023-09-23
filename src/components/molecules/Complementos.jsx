@@ -1,4 +1,3 @@
-// ../molecules/Complementos
 import React from "react";
 
 function complementos(){

@@ -1,4 +1,3 @@
-// ../organisms/Main
 import React from "react";
 import TituloNombre from '../molecules/TituloNombre';
 import Foto from '../atoms/Foto';

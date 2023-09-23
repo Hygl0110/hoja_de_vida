@@ -1,4 +1,3 @@
-// ../molecules/Formacion
 import React from "react";
 
 function formacion(){

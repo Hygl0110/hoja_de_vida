@@ -1,4 +1,3 @@
-// ../organisms/Aside
 import React from "react";
 import Introduccion from '../molecules/Introduccion';
 import Competencias from "../molecules/Competencias";

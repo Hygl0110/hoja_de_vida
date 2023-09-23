@@ -1,4 +1,3 @@
-// ../atoms/Foto
 import React from "react";
 
 function foto(){

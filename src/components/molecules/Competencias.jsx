@@ -1,4 +1,3 @@
-// ../molecules/Competencias
 import React from "react";
 
 function competencias(){

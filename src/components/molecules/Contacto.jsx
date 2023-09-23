@@ -1,4 +1,3 @@
-// ../molecules/Contacto
 import React from "react";
 
 import Texto from '../atoms/Texto'

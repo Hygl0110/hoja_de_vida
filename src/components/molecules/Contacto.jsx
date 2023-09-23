@@ -1,13 +1,14 @@
+// ../molecules/Contacto
 import React from "react";
+
+import Texto from '../atoms/Texto'
 
 function contacto(){
     return(
         <div>
-            <ul>
-                <li><p>telefono</p></li>
-                <li><p>correo</p></li>
-                <li><p>ubicacion</p></li>
-            </ul>
+            <Texto mostrar='Telefono: +57 311 621 1659' />
+            <Texto mostrar='Correo: danielcardona181462@correo.itm.edu.co' />
+            <Texto mostrar='Ciudad: Medellín, Colombia' />
             {/* agregar mas cosas */}
         </div>
     );

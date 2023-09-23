@@ -1,24 +1,27 @@
 import React from "react";
 
-import Header from './components/organisms/Header';
-import Main from './components/organisms/Main';
+import Header from '../organisms/Header';
+import Main from '../organisms/Main';
+import Aside from '../organisms/Aside'
+import Footer from '../organisms/Footer'; 
 
 /* 
 import Aside from './components/organisms/Aside';
-import Footer from './components/organisms/Footer'; 
+
 */
 
 
 function hojaDeVida(){
     return(
-        <div>
+        <div class='container'>
             <Header />
             <Main />
-            {/* <Aside />
-            <Footer /> */}
+            <Aside />
+            <Footer />
             {/* agregar mas cosas */}
         </div>
     );
 }
+
 
 export default hojaDeVida;

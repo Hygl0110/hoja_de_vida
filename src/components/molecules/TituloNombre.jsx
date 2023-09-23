@@ -3,8 +3,8 @@ import React from "react";
 function tituloNombre(){
     return(
         <div>
-            <h1><b>Daniel Hernney Cardona Jaramillo</b></h1>
-            <h2>Ingeniero Electromecanico</h2>
+            <h2><b>Daniel Hernney Cardona Jaramillo</b></h2>
+            <h3>Ingeniero Electromecanico</h3>
             {/* agregar mas cosas */}
         </div>
     );

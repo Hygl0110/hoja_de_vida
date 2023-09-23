@@ -1,13 +1,21 @@
+// ../organisms/Main
 import React from "react";
-
-import Introduccion from './components/molecules/Introduccion';
+import TituloNombre from '../molecules/TituloNombre';
+import Foto from '../atoms/Foto';
+import Contacto from '../molecules/Contacto'
+import Formacion from "../molecules/Formacion";
+import Complementos from '../molecules/Complementos'
 
 function main(){
     return(
-        <div>
-            <Introduccion />
+        <main class='main'>
+            <TituloNombre />
+            <Foto />
+            <Contacto />
+            <Formacion/>
+            <Complementos/>
             {/* agregar mas cosas */}
-        </div>
+        </main>
     );
 }
 

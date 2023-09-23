@@ -1,13 +1,14 @@
 import React from "react";
 
-import TituloNombre from './components/molecules/TituloNombre';
+import Titulo from '../atoms/Titulo';
+
 
 function header(){
     return(
-        <div>
-            <TituloNombre />
+        <header class='header'>
+             <Titulo />
             {/* agregar mas cosas */}
-        </div>
+        </header>
     );
 }
 

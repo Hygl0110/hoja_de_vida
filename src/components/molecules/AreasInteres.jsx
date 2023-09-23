@@ -1,3 +1,4 @@
+// ../molecules/AreasInteres
 import React from "react";
 
 function areasInteres(){
